@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+.burger-img {
+    width: 200px;
+    border-radius: 10px; 
+}
+
+.sub-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #dbc85b;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px 1px;
+    padding: 30px 30px 50px 30px;
+    
+}
+
+.main-container {
+    background-color: #e9d0b2;
+    padding: 40px;
+    height: 500px;
+    padding: 50px;
+}
+
+.text-box {
+    background-color: #fff;
+    box-shadow: 3px 3px 5px 1px;
+    width: 310px;
+    height: 200px;
+    border-radius: 20px;
+    margin-top: -60px;
+}
+
+.text-box h2 {
+    padding-top: 20px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.text-box p {
+    font-family: sans-serif;
+}
+
+#span-text {
+    color: rgb(207, 45, 45);
+}
+
+#skip {
+    border: none;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+#submit {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    box-shadow: 3px 3px 5px red;
+    font-size: 15px;
+}
+
+form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+form input {
+    cursor: pointer;
+}

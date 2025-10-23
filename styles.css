@@ -1,0 +1,321 @@
+@media (max-width: 768px) {
+  body,
+  html {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    overflow-x: hidden;
+  }
+
+  .header {
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .nav-bars ul {
+    margin-bottom: -10px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .text {
+    margin: 20px;
+    width: 300px;
+  }
+
+  .main-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #my-id,
+  #my-about {
+    width: 250px;
+  }
+
+  .sub-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #skill {
+    width: 200px;
+  }
+
+  .project-stack {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: rgb(213, 214, 214);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(31, 4, 4);
+  padding: 5px 20px;
+}
+
+.nav-bars ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-bars a {
+  text-decoration: none;
+  color: #f0f8ff;
+  font-family: Tahoma;
+  font-size: 15px;
+  background-color: rgb(117, 56, 56);
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.nav-bars a:hover {
+  background-color: aliceblue;
+  color: #000000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+
+.main-content {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.main-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+}
+
+.contact {
+  text-decoration: none;
+  background-color: blue;
+  border-radius: 50px;
+  padding: 5px 10px;
+  color: #f0f8ff;
+  font-family: Arial;
+  cursor: pointer;
+}
+
+footer {
+  padding: 20px;
+  margin-bottom: -100px;
+  color: #000000;
+}
+
+.whatsapp-icon {
+  color: rgb(4, 88, 4);
+}
+
+.github-icon {
+  color: #000000;
+}
+
+.linkedin-icon {
+  color: blue;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.whatsapp-icon,
+.github-icon {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Calibri;
+}
+
+#my-about {
+  box-shadow: 3px 3px rgb(6, 26, 39);
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.myself {
+  font-size: 20px;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#skill {
+  padding: 50px 10px;
+  width: 100px;
+  border-radius: 200px;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.py {
+  background-color: rgb(85, 14, 14);
+}
+
+.java {
+  background-color: rgb(88, 81, 36);
+}
+
+.ml {
+  background-color: rgb(12, 59, 12);
+}
+
+.css {
+  background-color: rgb(22, 22, 75);
+}
+
+
+.project-stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#proj {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 4px 4px 4px grey;
+  background-color: rgb(181, 187, 181);
+  width: 300px;
+  height: 400px;
+}
+
+#proj a {
+  text-decoration: none;
+  background-color: rgb(253, 255, 254);
+  padding: 5px 10px;
+  border-radius: 5px 10px;
+  color: darkblue;
+  font-family: Verdana;
+  cursor: pointer;
+}
+
+#proj a:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+
+.contact-form {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9)), url(./images/contact-bg.jpg);
+  background-position: center;
+  border-radius: 20px;
+  margin: 10px 20px;
+  padding: 10px;
+  color: #fff;
+  background-size: cover;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+#form {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form input {
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border: 1px solid #000;
+  background-color: rgb(5, 1, 31);
+  color: #ffffff;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px 10px;
+}
+
+#form label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#message {
+  border-radius: 5px 10px;
+  border: 1px solid #000;
+  background-color: rgb(5, 1, 31);
+  color: #fff;
+}
+
+.anchor-email a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.anchor-email a:hover {
+  color: red;
+}
+
+.anchor-email {
+  
+  padding: 10px;
+  
+}
